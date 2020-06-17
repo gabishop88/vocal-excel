@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "643809562156",
+    "firebase_url": "https://vocal-excel.firebaseio.com",
+    "project_id": "vocal-excel",
+    "storage_bucket": "vocal-excel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643809562156:android:3577b20dc1d76ee0884b89",
+        "android_client_info": {
+          "package_name": "com.fishspeaks.vocal_excel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643809562156-shd5kpkjhbt9d34ou990qmk2nlg95bgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fishspeaks.vocal_excel",
+            "certificate_hash": "97049bd74c206f384820e86daf6d96e50050c952"
+          }
+        },
+        {
+          "client_id": "643809562156-53l3mm7m5hr38ob5llji3gipcitaofd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC168GlzR6_5U1EpZ7hkG_Xxj3ScYt3wjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643809562156-53l3mm7m5hr38ob5llji3gipcitaofd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

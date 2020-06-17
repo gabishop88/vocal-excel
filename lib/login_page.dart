@@ -1,5 +1,6 @@
-
 import 'package:flutter/material.dart';
+import 'package:vocal_excel/sign_in.dart';
+import 'package:vocal_excel/main_screen.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -37,8 +38,16 @@ class _LoginPageState extends State<LoginPage> {
     return OutlineButton(
       splashColor: Colors.grey,
       onPressed: () {
-        //On Pressed Logic.
-      },
+        signInWithGoogle().whenComplete(() {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) {
+                return MainScreen();
+              }, //builder
+            ),
+          ); //Navigator push
+        }); //whenComplete
+      }, //onPressed
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
       borderSide: BorderSide(color: Colors.grey),
