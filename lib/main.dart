@@ -20,18 +20,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class SignInPage extends StatefulWidget {
-  bool signedIn = false;
-  bool userSignedIn() {
-    return signedIn;
-  }
-  @override
-  State<StatefulWidget> createState() {
-    throw UnimplementedError();
-  }
-
-}
-
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -41,6 +29,8 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+
+//Unused \/
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
